@@ -1,0 +1,91 @@
+/**index.wxss**/
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+/*
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 1px;
+}
+*/
+.progressa {
+  margin-top: 10px;
+  color: red;
+}
+.progressb {
+  margin-top: 10px;
+  color: red;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  color: red;
+}
+
+.flex-wrp {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.select_a {
+  align-items: right;
+}
+.select_b {
+  align-items: right;
+}
+
+.subject {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+.videoa {
+  margin-top: 10px;
+  align-items: center;
+}
+
+.videob {
+  align-items: center;
+  margin-top: 10px;
+}
+
+.leftcount {
+  margin-top: 10px;
+  align-items: center;
+}
+
+.rightcount {
+  margin-top: 10px;
+  align-items: center;
+}
+.votetextleft {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.votetextright {
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+}
+

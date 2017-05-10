@@ -1,0 +1,38 @@
+<!--index.wxml-->
+<!--
+<view class="container">
+  <view  bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+  
+</view>
+-->
+
+<view class="pkvideos">
+<view class="flex-wrp" style="flex-direction:row">
+  <view><image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image></view>
+  <view class="subject"> 
+    {{battle.title}} 
+  </view>
+  </view>
+  
+  <view class="flex-wrp" style="flex-direction:row">
+    <view class="button_a"><button type="buttona" bindtap="leftVote"> {{battle.leftCount}}票 </button></view>
+    <view class="section__ctn">
+      <image style="width: 100px; height: 80px; background-color: #eeeeee;" bindtap="playLeftVideo" src="{{battle.leftImage}}"></image>
+  </view>
+  <text> VS </text>
+    <view class="section__ctn">
+      <image style="width: 100px; height: 80px; background-color: #eeeeee;" bindtap="playRightVideo" src="{{battle.rightImage}}"></image>
+  </view>
+     <view class="button_b"><button type="buttona" bindtap="rightVote"> {{battle.rightCount}}票</button></view>
+  </view>
+  
+    
+</view>
+<progress percent="{{progress}}" stroke-width="12" color="black" backgroud-color="green" />
+

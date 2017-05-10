@@ -1,0 +1,5 @@
+<!--pages/leftvideo/leftvideo.wxml-->
+
+<view class="videoa">
+    <video id="video_a" autoplay="true" src="{{left_uri}}"></video>
+</view>

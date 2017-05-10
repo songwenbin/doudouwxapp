@@ -1,0 +1,30 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/leftvideo/leftvideo",
+    "pages/rightvideo/rightvideo"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#79e8d0",
+    "navigationBarTitleText": "斗斗短视频",
+    "navigationBarTextStyle":"white",
+    "backgroundColor": "#000000"
+  },
+  "tabBar": {
+     "color": "#ffffff",
+     "selectedColor": "#3cc51f",
+     "borderStyle": "black",
+     "backgroundColor": "#79e8d0",
+     "list" : [
+       {
+         "pagePath": "pages/index/index",
+         "text" : "上传视频"
+       },
+       {
+         "pagePath": "pages/index/index",
+         "text" : "发起PK"
+       }
+     ]
+  }
+}

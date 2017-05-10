@@ -1,0 +1,5 @@
+<!--pages/rightvideo/rightvideo.wxml-->
+
+<view class="videob">
+    <video id="video_b" autoplay="true" src="{{right_uri}}"></video>
+</view>
